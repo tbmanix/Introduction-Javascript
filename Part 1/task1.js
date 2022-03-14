@@ -9,25 +9,25 @@ const biodata = {
     isMarried: false,
     schoolList: [
         {
-            name: "sdn cireundeu 1",
+            name: "sd",
             yearIn: 2005,
             yearOut: 2011,
             major: null
         },
         {
-            name: "smpn 2 solear",
+            name: "smp",
             yearIn: 2011,
             yearOut: 2014,
             major: null
         },
         {
-            name: "sman 1 maja",
+            name: "sma",
             yearIn: 2014,
             yearOut: 2017,
             major: null
         },
         {
-            name: "universitas pamulang",
+            name: "universitasg",
             yearIn: 2017,
             yearOut: 2022,
             major: null

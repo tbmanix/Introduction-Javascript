@@ -1,6 +1,7 @@
 const mtk = 80, bahasaIndonesia = 90, bahasaInggris = 89, ipa = 69
 
 //console.log(typeof mtk)
+///namavariabel.every(Number) mengecek semua isi variabel adalah number semua variabel dimasukan ke array
 
 if(typeof mtk === "number" && typeof bahasaIndonesia === "number" && typeof bahasaInggris === "number" && typeof ipa === "number"){
     
