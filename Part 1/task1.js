@@ -58,4 +58,4 @@ const biodata = {
     interestCoding: true
 }
 
-//console.log(biodata)
+console.log(biodata)
