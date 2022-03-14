@@ -1,37 +1,35 @@
-const mtk = 78
+const mtk = 90
 const bahasaIndonesia = 90
 const bahasaInggris = 90
 const ipa = 90
 
-    const validasiAngka = /^[0-9]+$/
+//console.log(typeof mtk)
+
+if(typeof mtk === "number" && typeof bahasaIndonesia === "number" && typeof bahasaInggris === "number" && typeof ipa === "number"){
+    
     const jumPel = 4
-    const jumNil = parseFloat(mtk)+parseFloat(bahasaIndonesia)+parseFloat(bahasaInggris)+parseFloat(ipa)
+    const jumNil= mtk + ipa + bahasaIndonesia + bahasaInggris
     const average = jumNil/jumPel
 
-if(isNaN(average)){
-    console.log("Data tidak boleh kosong")
-}else{
-    
-    console.log(average)
+    console.log(`rata-rata ${average}`)
+
     switch (true) {
     case average >= 90:
-        console.log('A')
+        console.log(' Grade A')
         break;
     case average >= 80:
-        console.log('B')
+        console.log('Grade B')
         break;
     case average >= 70:
-        console.log('C')
+        console.log('Grade C')
         break;
     case average >= 60:
-        console.log('D')
+        console.log('Grade D')
         break;
     default:
-        console.log('E')
+        console.log('Grade E')
         break;
     }
-    console.log(average)
+}else{
+    console.log("Data tidak boleh kosong dan harus berupa angka")
 }
-
-
-
