@@ -12,7 +12,7 @@ if(typeof mtk === "number" && typeof bahasaIndonesia === "number" && typeof baha
 
     switch (true) {
     case average >= 90:
-        console.log(' Grade A')
+        console.log('Grade A')
         break;
     case average >= 80:
         console.log('Grade B')

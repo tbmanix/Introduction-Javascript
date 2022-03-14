@@ -1,6 +1,6 @@
 const printSegitiga = 5
 
-let segitiga = []
+let segitiga = ""
 if(isNaN(printSegitiga)){
     console.log("Data Harus Number")
 }else{
