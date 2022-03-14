@@ -1,7 +1,4 @@
-const mtk = 90
-const bahasaIndonesia = 90
-const bahasaInggris = 90
-const ipa = 90
+const mtk = 80, bahasaIndonesia = 90, bahasaInggris = 89, ipa = 69
 
 //console.log(typeof mtk)
 

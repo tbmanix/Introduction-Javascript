@@ -1,4 +1,4 @@
-const printSegitiga = "3"
+const printSegitiga = "5"
 
 let segitiga = []
 if(isNaN(printSegitiga)){
