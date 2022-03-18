@@ -22,7 +22,7 @@ const fizzbuzz = (angka) => {
 };
 
 // then & catch
-fizzbuzz(20) //menjalankan fungsi cekHariKerja
+fizzbuzz("string") //menjalankan fungsi cekHariKerja
   .then((result) => console.log(result)) //mengambil data cek dengan then
   .catch((error) => console.log(error)); //mengambil data error
 

@@ -1,6 +1,6 @@
 const getMonth = (callback) => {
   setTimeout(() => {
-    let error = false;
+    let error = true;
     let month = [
       "Januari",
       "Februari",
@@ -39,12 +39,12 @@ const getMonth = (callback) => {
 // }
 // getMonth(showMonth)
 
-getMonth((err, result) => {
+getMonth((err, res) => {
   // mengcallback
   if (!err) {
     // kondisi jika tidak error
     // console.log(result)
-    result.map((item) => {
+    res.map((item) => {
       //mapping array result
       console.log(item); //tampil data
     });

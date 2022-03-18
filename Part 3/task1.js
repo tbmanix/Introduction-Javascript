@@ -22,15 +22,15 @@ const cekHariKerja = (day) => {
 // })
 
 // PROMISE
-const day = "senin";
+const day = "sabtu";
 cekHariKerja(day) //menjalankan fungsi cekHariKerja
-  .then((cek) => console.log(cek)) //mengambil data cek dengan then
+  .then((res) => console.log(res)) //mengambil data cek dengan then
   .catch((error) => console.log(error)); //mengambil data error
 
 // ASYNC-AWAIT
 async function cetak() {
   try {
-    const day = "senin";
+    const day = "minggu";
     const cek = await cekHariKerja(day); //mengambil data cek dengan await agar tidak pending
     console.log(cek); //tampil data
   } catch (error) {
