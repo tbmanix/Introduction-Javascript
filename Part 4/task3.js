@@ -70,16 +70,16 @@ function fazzFood(harga, voucher, jarak, pajak) {
 }
 
 fazzFood(75000, "FAZZFOOD50", 5, true);
-// console.log("~~~~~~~~~~~~~~~~~~~~~~~~~");
-// fazzFood(75000, "FAZZFOOD50", 2, true);
+console.log("~~~~~~~~~~~~~~~~~~~~~~~~~");
+fazzFood(150000, "FAZZFOOD50", 2, false);
 // console.log("~~~~~~~~~~~~~~~~~~~~~~~~~");
 // fazzFood(25000, "FAZZFOOD50", 7, false);
 // console.log("~~~~~~~~~~~~~~~~~~~~~~~~~");
 // fazzFood(100000, "FAZZFOOD50", 1, true);
 // console.log("~~~~~~~~~~~~~~~~~~~~~~~~~");
-// fazzFood(75000, "DITRAKTIR60", 5, true);
+// fazzFood(100000, "DITRAKTIR60", 5, true);
 // console.log("~~~~~~~~~~~~~~~~~~~~~~~~~");
-// fazzFood(25000, "DITRAKTIR60", 5, true);
+// fazzFood(25000, "DITRAKTIR60", 1, false);
 // console.log("~~~~~~~~~~~~~~~~~~~~~~~~~");
 // fazzFood(100000, "DITRAKTIR60", 5, true);
 // console.log("~~~~~~~~~~~~~~~~~~~~~~~~~");

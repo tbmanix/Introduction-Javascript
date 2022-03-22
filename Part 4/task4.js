@@ -10,6 +10,8 @@ function divideAndSort(num) {
       .join(""); //gabungkan
 
     return +result; //ubah jadi number
+  } else {
+    return "input harus number";
   }
 }
 

@@ -14,4 +14,4 @@ function cekPalindrom(text) {
   }
 }
 
-cekPalindrom("K as U r Ru S AK");
+cekPalindrom("   K as U r Ru S AK");
